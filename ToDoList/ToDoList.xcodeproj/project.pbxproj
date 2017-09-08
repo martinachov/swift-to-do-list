@@ -56,15 +56,23 @@
 		546C600A1F6304ED008D9091 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
-				546C600B1F6304ED008D9091 /* AppDelegate.swift */,
 				546C600D1F6304ED008D9091 /* FirstViewController.swift */,
 				546C600F1F6304ED008D9091 /* SecondViewController.swift */,
 				546C60111F6304ED008D9091 /* Main.storyboard */,
+				546C601F1F632049008D9091 /* Supporting Files */,
+			);
+			path = ToDoList;
+			sourceTree = "<group>";
+		};
+		546C601F1F632049008D9091 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				546C600B1F6304ED008D9091 /* AppDelegate.swift */,
 				546C60141F6304ED008D9091 /* Assets.xcassets */,
 				546C60161F6304ED008D9091 /* LaunchScreen.storyboard */,
 				546C60191F6304ED008D9091 /* Info.plist */,
 			);
-			path = ToDoList;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
